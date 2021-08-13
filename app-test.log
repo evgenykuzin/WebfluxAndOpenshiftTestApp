@@ -1,0 +1,44 @@
+2021-08-04 12:17:11.945  INFO 39763 --- [main] r.s.a.W.router.PostsRouterTest           : Starting PostsRouterTest using Java 1.8.0_291 on SZB-WSM-0000553 with PID 39763 (started by a19190813 in /Users/a19190813/IdeaProjects/WebfluxAndOpenshiftTestApp)
+2021-08-04 12:17:11.951  INFO 39763 --- [main] r.s.a.W.router.PostsRouterTest           : No active profile set, falling back to default profiles: default
+2021-08-04 12:17:13.048  INFO 39763 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-04 12:17:13.278  INFO 39763 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 225 ms. Found 1 R2DBC repository interfaces.
+2021-08-04 12:17:15.730  WARN 39763 --- [main] o.s.b.a.m.MustacheAutoConfiguration      : Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-08-04 12:17:16.092  INFO 39763 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-08-04 12:17:16.092  INFO 39763 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-08-04 12:17:16.093  INFO 39763 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-08-04 12:17:16.109  INFO 39763 --- [main] r.s.a.W.router.PostsRouterTest           : Started PostsRouterTest in 4.577 seconds (JVM running for 6.064)
+2021-08-04 12:17:16.317  WARN 39763 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from Object value (token `JsonToken.START_OBJECT`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.time.LocalDateTime` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (org.springframework.mock.web.DelegatingServletInputStream); line: 1, column: 25] (through reference chain: ru.sberbank.a19190813.WebfluxAndOpenshiftTestApp.entities.Post["creationDate"])]
+2021-08-04 12:51:10.327  INFO 40105 --- [main] r.s.a.W.router.PostsRouterTest           : Starting PostsRouterTest using Java 1.8.0_291 on SZB-WSM-0000553 with PID 40105 (started by a19190813 in /Users/a19190813/IdeaProjects/WebfluxAndOpenshiftTestApp)
+2021-08-04 12:51:10.365  INFO 40105 --- [main] r.s.a.W.router.PostsRouterTest           : No active profile set, falling back to default profiles: default
+2021-08-04 12:51:11.253  INFO 40105 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-04 12:51:11.492  INFO 40105 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 233 ms. Found 1 R2DBC repository interfaces.
+2021-08-04 12:51:13.909  WARN 40105 --- [main] o.s.b.a.m.MustacheAutoConfiguration      : Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-08-04 12:51:14.263  INFO 40105 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-08-04 12:51:14.263  INFO 40105 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-08-04 12:51:14.264  INFO 40105 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-08-04 12:51:14.285  INFO 40105 --- [main] r.s.a.W.router.PostsRouterTest           : Started PostsRouterTest in 4.378 seconds (JVM running for 5.696)
+2021-08-04 12:51:14.522  WARN 40105 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from Object value (token `JsonToken.START_OBJECT`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.time.LocalDateTime` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (org.springframework.mock.web.DelegatingServletInputStream); line: 1, column: 25] (through reference chain: ru.sberbank.a19190813.WebfluxAndOpenshiftTestApp.entities.Post["creationDate"])]
+2021-08-04 12:51:57.839  INFO 40116 --- [main] r.s.a.W.router.PostsRouterTest           : Starting PostsRouterTest using Java 1.8.0_291 on SZB-WSM-0000553 with PID 40116 (started by a19190813 in /Users/a19190813/IdeaProjects/WebfluxAndOpenshiftTestApp)
+2021-08-04 12:51:57.844  INFO 40116 --- [main] r.s.a.W.router.PostsRouterTest           : No active profile set, falling back to default profiles: default
+2021-08-04 12:51:58.653  INFO 40116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-04 12:51:58.839  INFO 40116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 181 ms. Found 1 R2DBC repository interfaces.
+2021-08-04 12:52:01.103  WARN 40116 --- [main] o.s.b.a.m.MustacheAutoConfiguration      : Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-08-04 12:52:01.449  INFO 40116 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-08-04 12:52:01.449  INFO 40116 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-08-04 12:52:01.450  INFO 40116 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-08-04 12:52:01.468  INFO 40116 --- [main] r.s.a.W.router.PostsRouterTest           : Started PostsRouterTest in 3.953 seconds (JVM running for 5.109)
+2021-08-04 12:52:01.675  WARN 40116 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from Object value (token `JsonToken.START_OBJECT`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.time.LocalDateTime` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (org.springframework.mock.web.DelegatingServletInputStream); line: 1, column: 25] (through reference chain: ru.sberbank.a19190813.WebfluxAndOpenshiftTestApp.entities.Post["creationDate"])]
+2021-08-04 13:24:10.736  INFO 40490 --- [main] r.s.a.W.router.PostsRouterTest           : Starting PostsRouterTest using Java 1.8.0_291 on SZB-WSM-0000553 with PID 40490 (started by a19190813 in /Users/a19190813/IdeaProjects/WebfluxAndOpenshiftTestApp)
+2021-08-04 13:24:10.739  INFO 40490 --- [main] r.s.a.W.router.PostsRouterTest           : No active profile set, falling back to default profiles: default
+2021-08-04 13:24:11.478  INFO 40490 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-04 13:24:11.675  INFO 40490 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 191 ms. Found 1 R2DBC repository interfaces.
+2021-08-04 13:24:13.862  WARN 40490 --- [main] o.s.b.a.m.MustacheAutoConfiguration      : Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-08-04 13:24:14.178  INFO 40490 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-08-04 13:24:14.179  INFO 40490 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-08-04 13:24:14.180  INFO 40490 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-08-04 13:24:14.197  INFO 40490 --- [main] r.s.a.W.router.PostsRouterTest           : Started PostsRouterTest in 3.757 seconds (JVM running for 4.719)
+2021-08-04 13:24:14.379  WARN 40490 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from Object value (token `JsonToken.START_OBJECT`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.time.LocalDateTime` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (org.springframework.mock.web.DelegatingServletInputStream); line: 1, column: 25] (through reference chain: ru.sberbank.a19190813.WebfluxAndOpenshiftTestApp.entities.Post["creationDate"])]

@@ -1,0 +1,13 @@
+package ru.sberbank.a19190813.WebfluxAndOpenshiftTestApp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class WebfluxAndOpenshiftTestAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(WebfluxAndOpenshiftTestAppApplication.class, args);
+	}
+
+}

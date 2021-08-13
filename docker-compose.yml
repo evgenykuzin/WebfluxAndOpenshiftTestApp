@@ -1,0 +1,29 @@
+version: "3.7"
+services:
+  db:
+    image: postgres:9.5
+    network_mode: bridge
+    container_name: armdb
+    ports:
+      - 5431:5432
+    environment:
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=testdb
+    restart: unless-stopped
+  # APP*****************************************
+  webfluxapp:
+    image: sber/hybrid:latest
+    network_mode: bridge
+    container_name: hybrid
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/testdb
+    ports:
+      - 8081:8080
+    restart: unless-stopped
+    depends_on:
+      - db
+    links:
+      - db
+    volumes:
+      - ./ekey:/hybrid/ekey #./ekey path on current machine (where run docker-compose up)
