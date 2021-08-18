@@ -16,7 +16,11 @@
     <properties>
         <java.version>1.8</java.version>
         <powermock.version>2.0.5</powermock.version>
-        <IMAGE_PATH>docker.registry.sbrf.ru/jekajops/webflux-test-app</IMAGE_PATH>
+        <image.registry.docker>registry.hub.docker.com</image.registry.docker>
+        <image.registry.sber>docker.registry.sbrf.ru</image.registry.sber>
+        <image.name>/jekjops/webflux-test-app:prod</image.name>
+        <image.path>registry.ca.sbrf.ru/dev/ci00199106/ci00358480_ups_dev/webflux-test-app</image.path>
+<!--        <image.path>image-registry.openshift-image-registry.svc:5000/crt-19190813-dev/webflux-test-app-3</image.path>-->
     </properties>
 
     <dependencies>
@@ -155,7 +159,7 @@
                 <version>2.8.0</version>
                 <configuration>
                     <to>
-                        <image>${IMAGE_PATH}</image>
+                        <image>${image.path}</image>
                     </to>
                     <allowInsecureRegistries>true</allowInsecureRegistries>
                 </configuration>
